@@ -693,12 +693,14 @@ ul {
   padding: 8px 16px;
 }
 .chek-text {
-  display: flex;
   align-items: center;
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
+  margin-bottom: 24px;
+}
+.modal-field-privat {
   margin-bottom: 24px;
 }
 .chek-link {
