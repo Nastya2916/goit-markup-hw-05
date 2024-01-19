@@ -644,7 +644,7 @@ ul {
   fill: #4d5ae5;
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 .modal-label {
   display: block;
@@ -681,19 +681,20 @@ ul {
 .modal-text:focus {
   border-color: #4d5ae5;
 }
-.coment-stile::placeholder {
-  color: rgba(46, 47, 66, 0.4);
+
+.coment-stile {
   font-size: 12px;
-  font-weight: 400;
-  line-height: 1.7; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
 }
 .chek-text {
   display: flex;
   align-items: center;
   color: #8e8f99;
   font-size: 12px;
-  line-height: 1.7; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
   margin-bottom: 24px;
 }
@@ -704,18 +705,19 @@ ul {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
-.chek-text span {
+.icon-modal {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 12px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border-radius: 2px;
 }
 .chek-input:checked + .chek-text span {
   background-color: #404bbf;
