@@ -644,7 +644,10 @@ ul {
   fill: #4d5ae5;
 }
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+}
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 .modal-label {
   display: block;
