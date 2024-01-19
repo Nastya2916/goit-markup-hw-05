@@ -729,7 +729,7 @@ ul {
 .button-modal {
   display: block;
   margin: 0 auto;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -737,7 +737,7 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-  border: none solid #4d5ae5;
+  border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
